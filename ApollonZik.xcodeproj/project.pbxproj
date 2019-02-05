@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0244361C4FB2D8002FF328 /* ChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0244351C4FB2D8002FF328 /* ChooseViewController.m */; };
+		AB0244381C4FC09C002FF328 /* Appollon in Resources */ = {isa = PBXBuildFile; fileRef = AB0244371C4FC09C002FF328 /* Appollon */; };
+		AB02443C1C4FE70E002FF328 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB02443B1C4FE70E002FF328 /* WebViewController.m */; };
+		AB24B2851C4A1DAB00C1F8CA /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB24B2841C4A1DAB00C1F8CA /* DBManager.m */; };
+		AB2DFC191C52DAA9005C7976 /* DuelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFC181C52DAA9005C7976 /* DuelViewController.m */; };
+		AB3CAD9F1C39FF3E002FC64B /* Main-4S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CAD991C39FF3E002FC64B /* Main-4S.storyboard */; };
+		AB3CADA01C39FF3E002FC64B /* Main-6-Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CAD9B1C39FF3E002FC64B /* Main-6-Plus.storyboard */; };
+		AB3CADA11C39FF3E002FC64B /* Main-6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CAD9D1C39FF3E002FC64B /* Main-6.storyboard */; };
+		AB3CADBA1C3A740A002FC64B /* ABFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3CADB91C3A740A002FC64B /* ABFillButton.m */; };
+		AB3E975C1C31FD1500BEBDAA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E975B1C31FD1500BEBDAA /* libsqlite3.0.tbd */; };
+		AB3E97641C32173E00BEBDAA /* FavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E97631C32173E00BEBDAA /* FavouriteViewController.m */; };
+		AB3F1D061C18F8950036B75B /* JazzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3F1CFD1C18F8950036B75B /* JazzViewController.m */; };
+		AB497AA61C38B8C5004D36F8 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB497AA51C38B8C5004D36F8 /* ScoreViewController.m */; };
+		AB5585D71C5CAD15000A7D02 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5585D61C5CAD15000A7D02 /* GameKit.framework */; };
+		AB5FCB5D1C1317A600FCFDAE /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5FCB5C1C1317A600FCFDAE /* MZTimerLabel.m */; };
+		AB6626641C21FD07005C8795 /* MozTopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6626631C21FD07005C8795 /* MozTopAlertView.m */; };
+		AB6626671C21FD31005C8795 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6626661C21FD31005C8795 /* FAImageView.m */; };
+		AB66266D1C21FD67005C8795 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6626681C21FD67005C8795 /* FontAwesome.ttf */; };
+		AB66266E1C21FD67005C8795 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66266A1C21FD67005C8795 /* NSString+FontAwesome.m */; };
+		AB66266F1C21FD67005C8795 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66266C1C21FD67005C8795 /* UIFont+FontAwesome.m */; };
+		AB6626F01C220E7D005C8795 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6626EE1C220E7D005C8795 /* WatchConnectivity.framework */; };
+		AB6626F11C220E7D005C8795 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6626EF1C220E7D005C8795 /* WatchKit.framework */; };
+		AB890F8F1C5641B7008F58DF /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB890F8E1C5641B7008F58DF /* EndViewController.m */; };
+		AB8C96121C7245640036FEE5 /* SharingController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C96111C7245640036FEE5 /* SharingController.m */; };
+		AB8C961B1C7248D30036FEE5 /* ScoreInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C961A1C7248D30036FEE5 /* ScoreInterfaceController.m */; };
+		AB8C961E1C7248E80036FEE5 /* FavorisInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C961D1C7248E80036FEE5 /* FavorisInterfaceController.m */; };
+		AB8C96241C7257DC0036FEE5 /* ICBQuoteTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C96231C7257DC0036FEE5 /* ICBQuoteTableRow.m */; };
+		ABA106CE1C19509300DFD18C /* ChoixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA106CD1C19509300DFD18C /* ChoixViewController.m */; };
+		ABA19B6A1C6B71400074DA81 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA19B691C6B71400074DA81 /* InterfaceController.m */; };
+		ABA19B6C1C6B71400074DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA19B6B1C6B71400074DA81 /* Assets.xcassets */; };
+		ABA19B711C6B71400074DA81 /* ApollonZik WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = ABA19B701C6B71400074DA81 /* ApollonZik WatchKit 1 App.app */; };
+		ABA19B771C6B71400074DA81 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA19B751C6B71400074DA81 /* Interface.storyboard */; };
+		ABA19B791C6B71400074DA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA19B781C6B71400074DA81 /* Assets.xcassets */; };
+		ABA19B7D1C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABA19B661C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E85611DB1C0F76A400180EA6 /* StageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85611DA1C0F76A400180EA6 /* StageViewController.m */; };
+		E85611DE1C0F76E400180EA6 /* SoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85611DD1C0F76E400180EA6 /* SoneViewController.m */; };
+		E85611E11C0F771A00180EA6 /* StwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85611E01C0F771A00180EA6 /* StwoViewController.m */; };
+		E85611E71C0F77DF00180EA6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85611E61C0F77DF00180EA6 /* MediaPlayer.framework */; };
+		E88B1DEE1C1386ED00D46EAB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DED1C1386ED00D46EAB /* Parse.framework */; };
+		E88B1DF31C13870B00D46EAB /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DEF1C13870B00D46EAB /* ParseFacebookUtils.framework */; };
+		E88B1DF41C13870B00D46EAB /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DF01C13870B00D46EAB /* ParseFacebookUtilsV4.framework */; };
+		E88B1DF51C13870B00D46EAB /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DF11C13870B00D46EAB /* ParseTwitterUtils.framework */; };
+		E88B1DF61C13870B00D46EAB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DF21C13870B00D46EAB /* ParseUI.framework */; };
+		E88B1DF81C13875600D46EAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DF71C13875600D46EAB /* AudioToolbox.framework */; };
+		E88B1DFA1C13876400D46EAB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DF91C13876400D46EAB /* CFNetwork.framework */; };
+		E88B1DFC1C13876E00D46EAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DFB1C13876E00D46EAB /* CoreGraphics.framework */; };
+		E88B1DFE1C13877800D46EAB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DFD1C13877800D46EAB /* CoreLocation.framework */; };
+		E88B1E001C13878200D46EAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1DFF1C13878200D46EAB /* QuartzCore.framework */; };
+		E88B1E021C13878C00D46EAB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1E011C13878C00D46EAB /* Security.framework */; };
+		E88B1E041C13879600D46EAB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1E031C13879600D46EAB /* StoreKit.framework */; };
+		E88B1E061C1387A000D46EAB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1E051C1387A000D46EAB /* SystemConfiguration.framework */; };
+		E88B1E081C1387A900D46EAB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1E071C1387A900D46EAB /* libz.tbd */; };
+		E88B1E0A1C1387B700D46EAB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B1E091C1387B700D46EAB /* libsqlite3.tbd */; };
+		E8F544171C15665F00F006AA /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F544161C15665F00F006AA /* AVKit.framework */; };
+		E8F544191C1567D200F006AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F544181C1567D200F006AA /* AVFoundation.framework */; };
+		EF7588C41BFFAC58004F3276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7588C31BFFAC58004F3276 /* main.m */; };
+		EF7588C71BFFAC58004F3276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7588C61BFFAC58004F3276 /* AppDelegate.m */; };
+		EF7588CA1BFFAC58004F3276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7588C91BFFAC58004F3276 /* ViewController.m */; };
+		EF7588CD1BFFAC58004F3276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7588CB1BFFAC58004F3276 /* Main.storyboard */; };
+		EF7588CF1BFFAC59004F3276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7588CE1BFFAC59004F3276 /* Assets.xcassets */; };
+		EF7588D21BFFAC59004F3276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7588D01BFFAC59004F3276 /* LaunchScreen.storyboard */; };
+		EF7588DD1BFFAC59004F3276 /* ApollonZikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7588DC1BFFAC59004F3276 /* ApollonZikTests.m */; };
+		EF7588E81BFFAC59004F3276 /* ApollonZikUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7588E71BFFAC59004F3276 /* ApollonZikUITests.m */; };
+		EF7589271BFFB1A2004F3276 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589201BFFB1A2004F3276 /* Bolts.framework */; };
+		EF7589281BFFB1A2004F3276 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7589211BFFB1A2004F3276 /* FacebookSDKStrings.bundle */; };
+		EF7589291BFFB1A2004F3276 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589221BFFB1A2004F3276 /* FBAudienceNetwork.framework */; };
+		EF75892A1BFFB1A2004F3276 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589231BFFB1A2004F3276 /* FBSDKCoreKit.framework */; };
+		EF75892B1BFFB1A2004F3276 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589241BFFB1A2004F3276 /* FBSDKLoginKit.framework */; };
+		EF75892C1BFFB1A2004F3276 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589251BFFB1A2004F3276 /* FBSDKMessengerShareKit.framework */; };
+		EF75892D1BFFB1A2004F3276 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7589261BFFB1A2004F3276 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA19B721C6B71400074DA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7588B71BFFAC58004F3276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA19B6F1C6B71400074DA81;
+			remoteInfo = "ApollonZik WatchKit 1 App";
+		};
+		ABA19B7B1C6B71400074DA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7588B71BFFAC58004F3276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA19B651C6B71400074DA81;
+			remoteInfo = "ApollonZik WatchKit 1 Extension";
+		};
+		EF7588D91BFFAC59004F3276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7588B71BFFAC58004F3276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7588BE1BFFAC58004F3276;
+			remoteInfo = ApollonZik;
+		};
+		EF7588E41BFFAC59004F3276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7588B71BFFAC58004F3276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7588BE1BFFAC58004F3276;
+			remoteInfo = ApollonZik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB6626ED1C220A0F005C8795 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA19B841C6B71400074DA81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABA19B7D1C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB0244341C4FB2D8002FF328 /* ChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseViewController.h; sourceTree = "<group>"; };
+		AB0244351C4FB2D8002FF328 /* ChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseViewController.m; sourceTree = "<group>"; };
+		AB0244371C4FC09C002FF328 /* Appollon */ = {isa = PBXFileReference; lastKnownFileType = file; path = Appollon; sourceTree = "<group>"; };
+		AB02443A1C4FE70E002FF328 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AB02443B1C4FE70E002FF328 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AB24B2831C4A1DAB00C1F8CA /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		AB24B2841C4A1DAB00C1F8CA /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		AB2DFC171C52DAA9005C7976 /* DuelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuelViewController.h; sourceTree = "<group>"; };
+		AB2DFC181C52DAA9005C7976 /* DuelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuelViewController.m; sourceTree = "<group>"; };
+		AB3CAD9A1C39FF3E002FC64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ApollonZik/Base.lproj/Main-4S.storyboard"; sourceTree = "<group>"; };
+		AB3CAD9C1C39FF3E002FC64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ApollonZik/Base.lproj/Main-6-Plus.storyboard"; sourceTree = "<group>"; };
+		AB3CAD9E1C39FF3E002FC64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ApollonZik/Base.lproj/Main-6.storyboard"; sourceTree = "<group>"; };
+		AB3CADB71C3A73B2002FC64B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB3CADB81C3A740A002FC64B /* ABFillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFillButton.h; sourceTree = "<group>"; };
+		AB3CADB91C3A740A002FC64B /* ABFillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFillButton.m; sourceTree = "<group>"; };
+		AB3E975B1C31FD1500BEBDAA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AB3E97621C32173E00BEBDAA /* FavouriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteViewController.h; sourceTree = "<group>"; };
+		AB3E97631C32173E00BEBDAA /* FavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteViewController.m; sourceTree = "<group>"; };
+		AB3F1CFC1C18F8950036B75B /* JazzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JazzViewController.h; sourceTree = "<group>"; };
+		AB3F1CFD1C18F8950036B75B /* JazzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JazzViewController.m; sourceTree = "<group>"; };
+		AB497AA41C38B8C5004D36F8 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		AB497AA51C38B8C5004D36F8 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		AB5585D61C5CAD15000A7D02 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AB5FCB5B1C1317A600FCFDAE /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		AB5FCB5C1C1317A600FCFDAE /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		AB6626621C21FD07005C8795 /* MozTopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MozTopAlertView.h; path = ApollonZik/MozTopAlertView.h; sourceTree = SOURCE_ROOT; };
+		AB6626631C21FD07005C8795 /* MozTopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MozTopAlertView.m; path = ApollonZik/MozTopAlertView.m; sourceTree = SOURCE_ROOT; };
+		AB6626651C21FD31005C8795 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAImageView.h; path = ApollonZik/FAImageView.h; sourceTree = SOURCE_ROOT; };
+		AB6626661C21FD31005C8795 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAImageView.m; path = ApollonZik/FAImageView.m; sourceTree = SOURCE_ROOT; };
+		AB6626681C21FD67005C8795 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ApollonZik/FontAwesome.ttf; sourceTree = SOURCE_ROOT; };
+		AB6626691C21FD67005C8795 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "ApollonZik/NSString+FontAwesome.h"; sourceTree = SOURCE_ROOT; };
+		AB66266A1C21FD67005C8795 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "ApollonZik/NSString+FontAwesome.m"; sourceTree = SOURCE_ROOT; };
+		AB66266B1C21FD67005C8795 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+FontAwesome.h"; path = "ApollonZik/UIFont+FontAwesome.h"; sourceTree = SOURCE_ROOT; };
+		AB66266C1C21FD67005C8795 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FontAwesome.m"; path = "ApollonZik/UIFont+FontAwesome.m"; sourceTree = SOURCE_ROOT; };
+		AB6626EE1C220E7D005C8795 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		AB6626EF1C220E7D005C8795 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		AB6626F21C2211C1005C8795 /* ApollonZik.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ApollonZik.entitlements; sourceTree = "<group>"; };
+		AB890F8D1C5641B7008F58DF /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndViewController.h; sourceTree = "<group>"; };
+		AB890F8E1C5641B7008F58DF /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndViewController.m; sourceTree = "<group>"; };
+		AB8C96101C7245640036FEE5 /* SharingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharingController.h; sourceTree = "<group>"; };
+		AB8C96111C7245640036FEE5 /* SharingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharingController.m; sourceTree = "<group>"; };
+		AB8C96191C7248D30036FEE5 /* ScoreInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreInterfaceController.h; sourceTree = "<group>"; };
+		AB8C961A1C7248D30036FEE5 /* ScoreInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreInterfaceController.m; sourceTree = "<group>"; };
+		AB8C961C1C7248E80036FEE5 /* FavorisInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavorisInterfaceController.h; sourceTree = "<group>"; };
+		AB8C961D1C7248E80036FEE5 /* FavorisInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavorisInterfaceController.m; sourceTree = "<group>"; };
+		AB8C96221C7257DC0036FEE5 /* ICBQuoteTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBQuoteTableRow.h; sourceTree = "<group>"; };
+		AB8C96231C7257DC0036FEE5 /* ICBQuoteTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBQuoteTableRow.m; sourceTree = "<group>"; };
+		ABA106CC1C19509300DFD18C /* ChoixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoixViewController.h; sourceTree = "<group>"; };
+		ABA106CD1C19509300DFD18C /* ChoixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoixViewController.m; sourceTree = "<group>"; };
+		ABA19B661C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ApollonZik WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA19B681C6B71400074DA81 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		ABA19B691C6B71400074DA81 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		ABA19B6B1C6B71400074DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA19B6D1C6B71400074DA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA19B701C6B71400074DA81 /* ApollonZik WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApollonZik WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA19B761C6B71400074DA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ABA19B781C6B71400074DA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA19B7A1C6B71400074DA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA19B851C6B71600074DA81 /* ApollonZik WatchKit 1 App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApollonZik WatchKit 1 App.entitlements"; sourceTree = "<group>"; };
+		ABA19B861C6B77440074DA81 /* ApollonZik WatchKit 1 Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApollonZik WatchKit 1 Extension.entitlements"; sourceTree = "<group>"; };
+		E85611D91C0F76A400180EA6 /* StageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageViewController.h; sourceTree = "<group>"; };
+		E85611DA1C0F76A400180EA6 /* StageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageViewController.m; sourceTree = "<group>"; };
+		E85611DC1C0F76E400180EA6 /* SoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoneViewController.h; sourceTree = "<group>"; };
+		E85611DD1C0F76E400180EA6 /* SoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoneViewController.m; sourceTree = "<group>"; };
+		E85611DF1C0F771A00180EA6 /* StwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StwoViewController.h; sourceTree = "<group>"; };
+		E85611E01C0F771A00180EA6 /* StwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StwoViewController.m; sourceTree = "<group>"; };
+		E85611E61C0F77DF00180EA6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E88B1DED1C1386ED00D46EAB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E88B1DEF1C13870B00D46EAB /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		E88B1DF01C13870B00D46EAB /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		E88B1DF11C13870B00D46EAB /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		E88B1DF21C13870B00D46EAB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		E88B1DF71C13875600D46EAB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E88B1DF91C13876400D46EAB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E88B1DFB1C13876E00D46EAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E88B1DFD1C13877800D46EAB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E88B1DFF1C13878200D46EAB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E88B1E011C13878C00D46EAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E88B1E031C13879600D46EAB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E88B1E051C1387A000D46EAB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E88B1E071C1387A900D46EAB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E88B1E091C1387B700D46EAB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E8F544161C15665F00F006AA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E8F544181C1567D200F006AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF7588BF1BFFAC58004F3276 /* ApollonZik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApollonZik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7588C31BFFAC58004F3276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7588C51BFFAC58004F3276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7588C61BFFAC58004F3276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7588C81BFFAC58004F3276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7588C91BFFAC58004F3276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7588CC1BFFAC58004F3276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7588CE1BFFAC59004F3276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7588D11BFFAC59004F3276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7588D31BFFAC59004F3276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7588D81BFFAC59004F3276 /* ApollonZikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApollonZikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7588DC1BFFAC59004F3276 /* ApollonZikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApollonZikTests.m; sourceTree = "<group>"; };
+		EF7588DE1BFFAC59004F3276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7588E31BFFAC59004F3276 /* ApollonZikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApollonZikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7588E71BFFAC59004F3276 /* ApollonZikUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApollonZikUITests.m; sourceTree = "<group>"; };
+		EF7588E91BFFAC59004F3276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7589201BFFB1A2004F3276 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EF7589211BFFB1A2004F3276 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		EF7589221BFFB1A2004F3276 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		EF7589231BFFB1A2004F3276 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EF7589241BFFB1A2004F3276 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EF7589251BFFB1A2004F3276 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		EF7589261BFFB1A2004F3276 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA19B631C6B71400074DA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588BC1BFFAC58004F3276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E975C1C31FD1500BEBDAA /* libsqlite3.0.tbd in Frameworks */,
+				E88B1E0A1C1387B700D46EAB /* libsqlite3.tbd in Frameworks */,
+				AB6626F01C220E7D005C8795 /* WatchConnectivity.framework in Frameworks */,
+				AB6626F11C220E7D005C8795 /* WatchKit.framework in Frameworks */,
+				E8F544191C1567D200F006AA /* AVFoundation.framework in Frameworks */,
+				E8F544171C15665F00F006AA /* AVKit.framework in Frameworks */,
+				E88B1E081C1387A900D46EAB /* libz.tbd in Frameworks */,
+				E88B1E061C1387A000D46EAB /* SystemConfiguration.framework in Frameworks */,
+				E88B1E041C13879600D46EAB /* StoreKit.framework in Frameworks */,
+				E88B1E021C13878C00D46EAB /* Security.framework in Frameworks */,
+				E88B1E001C13878200D46EAB /* QuartzCore.framework in Frameworks */,
+				E88B1DFE1C13877800D46EAB /* CoreLocation.framework in Frameworks */,
+				E88B1DFC1C13876E00D46EAB /* CoreGraphics.framework in Frameworks */,
+				E88B1DFA1C13876400D46EAB /* CFNetwork.framework in Frameworks */,
+				E88B1DF81C13875600D46EAB /* AudioToolbox.framework in Frameworks */,
+				E85611E71C0F77DF00180EA6 /* MediaPlayer.framework in Frameworks */,
+				EF7589271BFFB1A2004F3276 /* Bolts.framework in Frameworks */,
+				E88B1DF31C13870B00D46EAB /* ParseFacebookUtils.framework in Frameworks */,
+				EF75892A1BFFB1A2004F3276 /* FBSDKCoreKit.framework in Frameworks */,
+				E88B1DF51C13870B00D46EAB /* ParseTwitterUtils.framework in Frameworks */,
+				E88B1DF41C13870B00D46EAB /* ParseFacebookUtilsV4.framework in Frameworks */,
+				E88B1DF61C13870B00D46EAB /* ParseUI.framework in Frameworks */,
+				EF75892D1BFFB1A2004F3276 /* FBSDKShareKit.framework in Frameworks */,
+				AB5585D71C5CAD15000A7D02 /* GameKit.framework in Frameworks */,
+				EF75892C1BFFB1A2004F3276 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				EF75892B1BFFB1A2004F3276 /* FBSDKLoginKit.framework in Frameworks */,
+				E88B1DEE1C1386ED00D46EAB /* Parse.framework in Frameworks */,
+				EF7589291BFFB1A2004F3276 /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588D51BFFAC59004F3276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588E01BFFAC59004F3276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3CADB61C3A7379002FC64B /* ABFillButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB3CADB81C3A740A002FC64B /* ABFillButton.h */,
+				AB3CADB91C3A740A002FC64B /* ABFillButton.m */,
+			);
+			name = ABFillButton;
+			sourceTree = "<group>";
+		};
+		AB5FCB571C13173600FCFDAE /* Lyric */ = {
+			isa = PBXGroup;
+			children = (
+				AB3F1CFC1C18F8950036B75B /* JazzViewController.h */,
+				AB3F1CFD1C18F8950036B75B /* JazzViewController.m */,
+				AB5FCB5B1C1317A600FCFDAE /* MZTimerLabel.h */,
+				AB5FCB5C1C1317A600FCFDAE /* MZTimerLabel.m */,
+				ABA106CC1C19509300DFD18C /* ChoixViewController.h */,
+				ABA106CD1C19509300DFD18C /* ChoixViewController.m */,
+				AB0244341C4FB2D8002FF328 /* ChooseViewController.h */,
+				AB0244351C4FB2D8002FF328 /* ChooseViewController.m */,
+				AB02443A1C4FE70E002FF328 /* WebViewController.h */,
+				AB02443B1C4FE70E002FF328 /* WebViewController.m */,
+				AB890F8D1C5641B7008F58DF /* EndViewController.h */,
+				AB890F8E1C5641B7008F58DF /* EndViewController.m */,
+			);
+			name = Lyric;
+			sourceTree = "<group>";
+		};
+		ABA19B671C6B71400074DA81 /* ApollonZik WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABA19B861C6B77440074DA81 /* ApollonZik WatchKit 1 Extension.entitlements */,
+				ABA19B681C6B71400074DA81 /* InterfaceController.h */,
+				ABA19B691C6B71400074DA81 /* InterfaceController.m */,
+				ABA19B6B1C6B71400074DA81 /* Assets.xcassets */,
+				ABA19B6D1C6B71400074DA81 /* Info.plist */,
+				AB8C96191C7248D30036FEE5 /* ScoreInterfaceController.h */,
+				AB8C961A1C7248D30036FEE5 /* ScoreInterfaceController.m */,
+				AB8C961C1C7248E80036FEE5 /* FavorisInterfaceController.h */,
+				AB8C961D1C7248E80036FEE5 /* FavorisInterfaceController.m */,
+				AB8C96221C7257DC0036FEE5 /* ICBQuoteTableRow.h */,
+				AB8C96231C7257DC0036FEE5 /* ICBQuoteTableRow.m */,
+			);
+			path = "ApollonZik WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		ABA19B741C6B71400074DA81 /* ApollonZik WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				ABA19B851C6B71600074DA81 /* ApollonZik WatchKit 1 App.entitlements */,
+				ABA19B751C6B71400074DA81 /* Interface.storyboard */,
+				ABA19B781C6B71400074DA81 /* Assets.xcassets */,
+				ABA19B7A1C6B71400074DA81 /* Info.plist */,
+			);
+			path = "ApollonZik WatchKit 1 App";
+			sourceTree = "<group>";
+		};
+		E85611D61C0F6D2A00180EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5585D61C5CAD15000A7D02 /* GameKit.framework */,
+				AB3E975B1C31FD1500BEBDAA /* libsqlite3.0.tbd */,
+				AB6626EE1C220E7D005C8795 /* WatchConnectivity.framework */,
+				AB6626EF1C220E7D005C8795 /* WatchKit.framework */,
+				E8F544181C1567D200F006AA /* AVFoundation.framework */,
+				E8F544161C15665F00F006AA /* AVKit.framework */,
+				E88B1E091C1387B700D46EAB /* libsqlite3.tbd */,
+				E88B1E071C1387A900D46EAB /* libz.tbd */,
+				E88B1E051C1387A000D46EAB /* SystemConfiguration.framework */,
+				E88B1E031C13879600D46EAB /* StoreKit.framework */,
+				E88B1E011C13878C00D46EAB /* Security.framework */,
+				E88B1DFF1C13878200D46EAB /* QuartzCore.framework */,
+				E88B1DFD1C13877800D46EAB /* CoreLocation.framework */,
+				E88B1DFB1C13876E00D46EAB /* CoreGraphics.framework */,
+				E88B1DF91C13876400D46EAB /* CFNetwork.framework */,
+				E88B1DF71C13875600D46EAB /* AudioToolbox.framework */,
+				E88B1DEF1C13870B00D46EAB /* ParseFacebookUtils.framework */,
+				E88B1DF01C13870B00D46EAB /* ParseFacebookUtilsV4.framework */,
+				E88B1DF11C13870B00D46EAB /* ParseTwitterUtils.framework */,
+				E88B1DF21C13870B00D46EAB /* ParseUI.framework */,
+				E88B1DED1C1386ED00D46EAB /* Parse.framework */,
+				E85611E61C0F77DF00180EA6 /* MediaPlayer.framework */,
+				EF7589201BFFB1A2004F3276 /* Bolts.framework */,
+				EF7589211BFFB1A2004F3276 /* FacebookSDKStrings.bundle */,
+				EF7589221BFFB1A2004F3276 /* FBAudienceNetwork.framework */,
+				EF7589231BFFB1A2004F3276 /* FBSDKCoreKit.framework */,
+				EF7589241BFFB1A2004F3276 /* FBSDKLoginKit.framework */,
+				EF7589251BFFB1A2004F3276 /* FBSDKMessengerShareKit.framework */,
+				EF7589261BFFB1A2004F3276 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E85611E51C0F773700180EA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E97621C32173E00BEBDAA /* FavouriteViewController.h */,
+				AB3E97631C32173E00BEBDAA /* FavouriteViewController.m */,
+				AB497AA41C38B8C5004D36F8 /* ScoreViewController.h */,
+				AB497AA51C38B8C5004D36F8 /* ScoreViewController.m */,
+				E8E4E31B1C13262B00EEFCE1 /* Songs */,
+				AB5FCB571C13173600FCFDAE /* Lyric */,
+				AB8C96101C7245640036FEE5 /* SharingController.h */,
+				AB8C96111C7245640036FEE5 /* SharingController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E8E4378F1C19668D00ABBA5C /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				AB6626681C21FD67005C8795 /* FontAwesome.ttf */,
+				AB6626691C21FD67005C8795 /* NSString+FontAwesome.h */,
+				AB66266A1C21FD67005C8795 /* NSString+FontAwesome.m */,
+				AB66266B1C21FD67005C8795 /* UIFont+FontAwesome.h */,
+				AB66266C1C21FD67005C8795 /* UIFont+FontAwesome.m */,
+				AB6626651C21FD31005C8795 /* FAImageView.h */,
+				AB6626661C21FD31005C8795 /* FAImageView.m */,
+				AB6626621C21FD07005C8795 /* MozTopAlertView.h */,
+				AB6626631C21FD07005C8795 /* MozTopAlertView.m */,
+			);
+			name = PopUp;
+			path = "../../ApollonZik V4/ApollonZik";
+			sourceTree = "<group>";
+		};
+		E8E4E31B1C13262B00EEFCE1 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				AB3CADB61C3A7379002FC64B /* ABFillButton */,
+				E8E4378F1C19668D00ABBA5C /* PopUp */,
+				EF7588C81BFFAC58004F3276 /* ViewController.h */,
+				EF7588C91BFFAC58004F3276 /* ViewController.m */,
+				E85611D91C0F76A400180EA6 /* StageViewController.h */,
+				E85611DA1C0F76A400180EA6 /* StageViewController.m */,
+				E85611DC1C0F76E400180EA6 /* SoneViewController.h */,
+				E85611DD1C0F76E400180EA6 /* SoneViewController.m */,
+				E85611DF1C0F771A00180EA6 /* StwoViewController.h */,
+				E85611E01C0F771A00180EA6 /* StwoViewController.m */,
+				AB2DFC171C52DAA9005C7976 /* DuelViewController.h */,
+				AB2DFC181C52DAA9005C7976 /* DuelViewController.m */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		EF7588B61BFFAC58004F3276 = {
+			isa = PBXGroup;
+			children = (
+				AB0244371C4FC09C002FF328 /* Appollon */,
+				AB24B2831C4A1DAB00C1F8CA /* DBManager.h */,
+				AB24B2841C4A1DAB00C1F8CA /* DBManager.m */,
+				EF7588C11BFFAC58004F3276 /* ApollonZik */,
+				EF7588DB1BFFAC59004F3276 /* ApollonZikTests */,
+				EF7588E61BFFAC59004F3276 /* ApollonZikUITests */,
+				ABA19B671C6B71400074DA81 /* ApollonZik WatchKit 1 Extension */,
+				ABA19B741C6B71400074DA81 /* ApollonZik WatchKit 1 App */,
+				E85611D61C0F6D2A00180EA6 /* Frameworks */,
+				EF7588C01BFFAC58004F3276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7588C01BFFAC58004F3276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7588BF1BFFAC58004F3276 /* ApollonZik.app */,
+				EF7588D81BFFAC59004F3276 /* ApollonZikTests.xctest */,
+				EF7588E31BFFAC59004F3276 /* ApollonZikUITests.xctest */,
+				ABA19B661C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex */,
+				ABA19B701C6B71400074DA81 /* ApollonZik WatchKit 1 App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7588C11BFFAC58004F3276 /* ApollonZik */ = {
+			isa = PBXGroup;
+			children = (
+				AB6626F21C2211C1005C8795 /* ApollonZik.entitlements */,
+				E85611E51C0F773700180EA6 /* ViewControllers */,
+				EF7588C51BFFAC58004F3276 /* AppDelegate.h */,
+				EF7588C61BFFAC58004F3276 /* AppDelegate.m */,
+				EF7588CB1BFFAC58004F3276 /* Main.storyboard */,
+				AB3CAD991C39FF3E002FC64B /* Main-4S.storyboard */,
+				AB3CAD9B1C39FF3E002FC64B /* Main-6-Plus.storyboard */,
+				AB3CAD9D1C39FF3E002FC64B /* Main-6.storyboard */,
+				EF7588CE1BFFAC59004F3276 /* Assets.xcassets */,
+				EF7588D01BFFAC59004F3276 /* LaunchScreen.storyboard */,
+				EF7588D31BFFAC59004F3276 /* Info.plist */,
+				EF7588C21BFFAC58004F3276 /* Supporting Files */,
+			);
+			path = ApollonZik;
+			sourceTree = "<group>";
+		};
+		EF7588C21BFFAC58004F3276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7588C31BFFAC58004F3276 /* main.m */,
+				AB3CADB71C3A73B2002FC64B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7588DB1BFFAC59004F3276 /* ApollonZikTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7588DC1BFFAC59004F3276 /* ApollonZikTests.m */,
+				EF7588DE1BFFAC59004F3276 /* Info.plist */,
+			);
+			path = ApollonZikTests;
+			sourceTree = "<group>";
+		};
+		EF7588E61BFFAC59004F3276 /* ApollonZikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7588E71BFFAC59004F3276 /* ApollonZikUITests.m */,
+				EF7588E91BFFAC59004F3276 /* Info.plist */,
+			);
+			path = ApollonZikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA19B651C6B71400074DA81 /* ApollonZik WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA19B811C6B71400074DA81 /* Build configuration list for PBXNativeTarget "ApollonZik WatchKit 1 Extension" */;
+			buildPhases = (
+				ABA19B621C6B71400074DA81 /* Sources */,
+				ABA19B631C6B71400074DA81 /* Frameworks */,
+				ABA19B641C6B71400074DA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA19B731C6B71400074DA81 /* PBXTargetDependency */,
+			);
+			name = "ApollonZik WatchKit 1 Extension";
+			productName = "ApollonZik WatchKit 1 Extension";
+			productReference = ABA19B661C6B71400074DA81 /* ApollonZik WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		ABA19B6F1C6B71400074DA81 /* ApollonZik WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA19B7E1C6B71400074DA81 /* Build configuration list for PBXNativeTarget "ApollonZik WatchKit 1 App" */;
+			buildPhases = (
+				ABA19B6E1C6B71400074DA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ApollonZik WatchKit 1 App";
+			productName = "ApollonZik WatchKit 1 App";
+			productReference = ABA19B701C6B71400074DA81 /* ApollonZik WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		EF7588BE1BFFAC58004F3276 /* ApollonZik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7588EC1BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZik" */;
+			buildPhases = (
+				EF7588BB1BFFAC58004F3276 /* Sources */,
+				EF7588BC1BFFAC58004F3276 /* Frameworks */,
+				EF7588BD1BFFAC58004F3276 /* Resources */,
+				AB6626ED1C220A0F005C8795 /* Embed Watch Content */,
+				ABA19B841C6B71400074DA81 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA19B7C1C6B71400074DA81 /* PBXTargetDependency */,
+			);
+			name = ApollonZik;
+			productName = ApollonZik;
+			productReference = EF7588BF1BFFAC58004F3276 /* ApollonZik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7588D71BFFAC59004F3276 /* ApollonZikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7588EF1BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZikTests" */;
+			buildPhases = (
+				EF7588D41BFFAC59004F3276 /* Sources */,
+				EF7588D51BFFAC59004F3276 /* Frameworks */,
+				EF7588D61BFFAC59004F3276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7588DA1BFFAC59004F3276 /* PBXTargetDependency */,
+			);
+			name = ApollonZikTests;
+			productName = ApollonZikTests;
+			productReference = EF7588D81BFFAC59004F3276 /* ApollonZikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7588E21BFFAC59004F3276 /* ApollonZikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7588F21BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZikUITests" */;
+			buildPhases = (
+				EF7588DF1BFFAC59004F3276 /* Sources */,
+				EF7588E01BFFAC59004F3276 /* Frameworks */,
+				EF7588E11BFFAC59004F3276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7588E51BFFAC59004F3276 /* PBXTargetDependency */,
+			);
+			name = ApollonZikUITests;
+			productName = ApollonZikUITests;
+			productReference = EF7588E31BFFAC59004F3276 /* ApollonZikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7588B71BFFAC58004F3276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Gothi Musix";
+				TargetAttributes = {
+					ABA19B651C6B71400074DA81 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G96V29LG5G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					ABA19B6F1C6B71400074DA81 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G96V29LG5G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EF7588BE1BFFAC58004F3276 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G96V29LG5G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					EF7588D71BFFAC59004F3276 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF7588BE1BFFAC58004F3276;
+					};
+					EF7588E21BFFAC59004F3276 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF7588BE1BFFAC58004F3276;
+					};
+				};
+			};
+			buildConfigurationList = EF7588BA1BFFAC58004F3276 /* Build configuration list for PBXProject "ApollonZik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7588B61BFFAC58004F3276;
+			productRefGroup = EF7588C01BFFAC58004F3276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7588BE1BFFAC58004F3276 /* ApollonZik */,
+				EF7588D71BFFAC59004F3276 /* ApollonZikTests */,
+				EF7588E21BFFAC59004F3276 /* ApollonZikUITests */,
+				ABA19B651C6B71400074DA81 /* ApollonZik WatchKit 1 Extension */,
+				ABA19B6F1C6B71400074DA81 /* ApollonZik WatchKit 1 App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA19B641C6B71400074DA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA19B711C6B71400074DA81 /* ApollonZik WatchKit 1 App.app in Resources */,
+				ABA19B6C1C6B71400074DA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA19B6E1C6B71400074DA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA19B791C6B71400074DA81 /* Assets.xcassets in Resources */,
+				ABA19B771C6B71400074DA81 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588BD1BFFAC58004F3276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7588D21BFFAC59004F3276 /* LaunchScreen.storyboard in Resources */,
+				AB3CAD9F1C39FF3E002FC64B /* Main-4S.storyboard in Resources */,
+				AB3CADA01C39FF3E002FC64B /* Main-6-Plus.storyboard in Resources */,
+				AB66266D1C21FD67005C8795 /* FontAwesome.ttf in Resources */,
+				AB0244381C4FC09C002FF328 /* Appollon in Resources */,
+				EF7588CF1BFFAC59004F3276 /* Assets.xcassets in Resources */,
+				EF7588CD1BFFAC58004F3276 /* Main.storyboard in Resources */,
+				AB3CADA11C39FF3E002FC64B /* Main-6.storyboard in Resources */,
+				EF7589281BFFB1A2004F3276 /* FacebookSDKStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588D61BFFAC59004F3276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588E11BFFAC59004F3276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA19B621C6B71400074DA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C961E1C7248E80036FEE5 /* FavorisInterfaceController.m in Sources */,
+				AB8C96241C7257DC0036FEE5 /* ICBQuoteTableRow.m in Sources */,
+				AB8C961B1C7248D30036FEE5 /* ScoreInterfaceController.m in Sources */,
+				ABA19B6A1C6B71400074DA81 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588BB1BFFAC58004F3276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7588CA1BFFAC58004F3276 /* ViewController.m in Sources */,
+				AB890F8F1C5641B7008F58DF /* EndViewController.m in Sources */,
+				AB02443C1C4FE70E002FF328 /* WebViewController.m in Sources */,
+				AB66266E1C21FD67005C8795 /* NSString+FontAwesome.m in Sources */,
+				AB497AA61C38B8C5004D36F8 /* ScoreViewController.m in Sources */,
+				AB6626671C21FD31005C8795 /* FAImageView.m in Sources */,
+				E85611E11C0F771A00180EA6 /* StwoViewController.m in Sources */,
+				AB3E97641C32173E00BEBDAA /* FavouriteViewController.m in Sources */,
+				AB0244361C4FB2D8002FF328 /* ChooseViewController.m in Sources */,
+				AB66266F1C21FD67005C8795 /* UIFont+FontAwesome.m in Sources */,
+				EF7588C71BFFAC58004F3276 /* AppDelegate.m in Sources */,
+				AB3CADBA1C3A740A002FC64B /* ABFillButton.m in Sources */,
+				AB24B2851C4A1DAB00C1F8CA /* DBManager.m in Sources */,
+				AB2DFC191C52DAA9005C7976 /* DuelViewController.m in Sources */,
+				AB6626641C21FD07005C8795 /* MozTopAlertView.m in Sources */,
+				E85611DE1C0F76E400180EA6 /* SoneViewController.m in Sources */,
+				AB3F1D061C18F8950036B75B /* JazzViewController.m in Sources */,
+				ABA106CE1C19509300DFD18C /* ChoixViewController.m in Sources */,
+				AB5FCB5D1C1317A600FCFDAE /* MZTimerLabel.m in Sources */,
+				EF7588C41BFFAC58004F3276 /* main.m in Sources */,
+				AB8C96121C7245640036FEE5 /* SharingController.m in Sources */,
+				E85611DB1C0F76A400180EA6 /* StageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588D41BFFAC59004F3276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7588DD1BFFAC59004F3276 /* ApollonZikTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7588DF1BFFAC59004F3276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7588E81BFFAC59004F3276 /* ApollonZikUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA19B731C6B71400074DA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA19B6F1C6B71400074DA81 /* ApollonZik WatchKit 1 App */;
+			targetProxy = ABA19B721C6B71400074DA81 /* PBXContainerItemProxy */;
+		};
+		ABA19B7C1C6B71400074DA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA19B651C6B71400074DA81 /* ApollonZik WatchKit 1 Extension */;
+			targetProxy = ABA19B7B1C6B71400074DA81 /* PBXContainerItemProxy */;
+		};
+		EF7588DA1BFFAC59004F3276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7588BE1BFFAC58004F3276 /* ApollonZik */;
+			targetProxy = EF7588D91BFFAC59004F3276 /* PBXContainerItemProxy */;
+		};
+		EF7588E51BFFAC59004F3276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7588BE1BFFAC58004F3276 /* ApollonZik */;
+			targetProxy = EF7588E41BFFAC59004F3276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3CAD991C39FF3E002FC64B /* Main-4S.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3CAD9A1C39FF3E002FC64B /* Base */,
+			);
+			name = "Main-4S.storyboard";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AB3CAD9B1C39FF3E002FC64B /* Main-6-Plus.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3CAD9C1C39FF3E002FC64B /* Base */,
+			);
+			name = "Main-6-Plus.storyboard";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AB3CAD9D1C39FF3E002FC64B /* Main-6.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3CAD9E1C39FF3E002FC64B /* Base */,
+			);
+			name = "Main-6.storyboard";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ABA19B751C6B71400074DA81 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA19B761C6B71400074DA81 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7588CB1BFFAC58004F3276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7588CC1BFFAC58004F3276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7588D01BFFAC59004F3276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7588D11BFFAC59004F3276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA19B7F1C6B71400074DA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ApollonZik WatchKit 1 App/ApollonZik WatchKit 1 App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = ApollonZik_WatchKit_1_Extension;
+				INFOPLIST_FILE = "ApollonZik WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		ABA19B801C6B71400074DA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ApollonZik WatchKit 1 App/ApollonZik WatchKit 1 App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				IBSC_MODULE = ApollonZik_WatchKit_1_Extension;
+				INFOPLIST_FILE = "ApollonZik WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		ABA19B821C6B71400074DA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ApollonZik WatchKit 1 Extension/ApollonZik WatchKit 1 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ApollonZik WatchKit 1 Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABA19B831C6B71400074DA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ApollonZik WatchKit 1 Extension/ApollonZik WatchKit 1 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = "ApollonZik WatchKit 1 Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EF7588EA1BFFAC59004F3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7588EB1BFFAC59004F3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7588ED1BFFAC59004F3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApollonZik/ApollonZik.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = ApollonZik/PrefixHeader.pch;
+				INFOPLIST_FILE = ApollonZik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF7588EE1BFFAC59004F3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApollonZik/ApollonZik.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = ApollonZik/PrefixHeader.pch;
+				INFOPLIST_FILE = ApollonZik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.esprit.tn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF7588F01BFFAC59004F3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApollonZikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gothi.ApollonZikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApollonZik.app/ApollonZik";
+			};
+			name = Debug;
+		};
+		EF7588F11BFFAC59004F3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApollonZikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gothi.ApollonZikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApollonZik.app/ApollonZik";
+			};
+			name = Release;
+		};
+		EF7588F31BFFAC59004F3276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApollonZikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gothi.ApollonZikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApollonZik;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF7588F41BFFAC59004F3276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApollonZikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gothi.ApollonZikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApollonZik;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA19B7E1C6B71400074DA81 /* Build configuration list for PBXNativeTarget "ApollonZik WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA19B7F1C6B71400074DA81 /* Debug */,
+				ABA19B801C6B71400074DA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA19B811C6B71400074DA81 /* Build configuration list for PBXNativeTarget "ApollonZik WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA19B821C6B71400074DA81 /* Debug */,
+				ABA19B831C6B71400074DA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7588BA1BFFAC58004F3276 /* Build configuration list for PBXProject "ApollonZik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7588EA1BFFAC59004F3276 /* Debug */,
+				EF7588EB1BFFAC59004F3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7588EC1BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7588ED1BFFAC59004F3276 /* Debug */,
+				EF7588EE1BFFAC59004F3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7588EF1BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7588F01BFFAC59004F3276 /* Debug */,
+				EF7588F11BFFAC59004F3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7588F21BFFAC59004F3276 /* Build configuration list for PBXNativeTarget "ApollonZikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7588F31BFFAC59004F3276 /* Debug */,
+				EF7588F41BFFAC59004F3276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7588B71BFFAC58004F3276 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ApollonZik.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Mongela.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AB6626C81C220A0E005C8795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF7588BE1BFFAC58004F3276</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF7588D71BFFAC59004F3276</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF7588E21BFFAC59004F3276</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

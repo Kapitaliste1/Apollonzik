@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="y5w-h1-pIV">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="h3h-ev-Ewa">
+            <objects>
+                <controller title="Home" backgroundImage="bgWW" id="y5w-h1-pIV" customClass="InterfaceController">
+                    <items>
+                        <group alignment="center" contentMode="scaleAspectFit" layout="vertical" id="grr-8r-jIP">
+                            <items>
+                                <button width="114" height="33.5" alignment="center" verticalAlignment="center" backgroundImage="btw" id="ZfI-o9-O0w">
+                                    <color key="titleColor" red="0.99036788940429688" green="0.9951862096786499" blue="0.99492430686950684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.16447123885154724" green="0.68810981512069702" blue="0.67547178268432617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <segue destination="lXD-2U-BR8" kind="push" id="Iuf-23-Yto"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="23" bottom="0.0"/>
+                        </group>
+                        <group height="72" alignment="center" verticalAlignment="center" id="xS0-8A-pnK">
+                            <items>
+                                <button width="111" height="33.5" alignment="center" verticalAlignment="center" backgroundImage="higscorW" id="aKJ-Mx-iM3">
+                                    <color key="titleColor" red="0.96250379085540771" green="0.98602557182312012" blue="0.97440552711486816" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.1537046879529953" green="0.64650702476501465" blue="0.65939116477966309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <segue destination="06d-Vg-FLX" kind="push" id="uDP-Rr-3An"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="202" y="354"/>
+        </scene>
+        <!--High Scores-->
+        <scene sceneID="gH9-8G-M7r">
+            <objects>
+                <controller title="High Scores" backgroundImage="bgWW" id="06d-Vg-FLX" customClass="ScoreInterfaceController">
+                    <items>
+                        <group width="1" height="362" alignment="left" layout="vertical" spacing="2" id="ngu-Ht-WDv">
+                            <items>
+                                <group width="1" alignment="left" id="0cE-sH-Ovq">
+                                    <items>
+                                        <label width="101.5" height="33.5" alignment="left" text="Lyric Score :" id="68R-ce-cu4"/>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" height="157" alignment="left" layout="vertical" id="vGQ-DI-y5Q">
+                                    <items>
+                                        <group width="1" height="19.5" alignment="left" id="W6F-u4-RwP">
+                                            <items>
+                                                <label width="70" alignment="left" text="Jazz :" id="okM-Uj-6j5"/>
+                                                <label width="52" height="25.5" alignment="left" text="0" textAlignment="center" id="hCv-v8-G1i"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="kwz-rU-XYu">
+                                            <items>
+                                                <label width="70" alignment="left" text="Rock :" id="ebd-R5-Aqm"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="njA-kw-Qwa"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="9eq-8t-phh">
+                                            <items>
+                                                <label width="70" alignment="left" text="Reggae :" id="Ims-EA-LSY"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="vcT-i6-Kvj"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="bRi-2W-gcI">
+                                            <items>
+                                                <label width="70" alignment="left" text="Rnb :" id="L5X-T3-Wu5"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="dXV-3A-IOS"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="R3R-0i-UfP">
+                                            <items>
+                                                <label width="70" height="32.5" alignment="left" text="Country :" id="dKH-ZV-tpy"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="ouK-na-tRu"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="Gtd-7T-OY5">
+                                            <items>
+                                                <label width="70" height="32.5" alignment="left" text="Pop :" id="U6v-l6-fjo"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="d2q-zK-tak"/>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <label width="109" height="21.5" alignment="left" text="Music Score :" id="EJc-99-5Z4"/>
+                                <group width="1" height="157" alignment="left" layout="vertical" id="GOy-gr-LQl">
+                                    <items>
+                                        <group width="1" height="19.5" alignment="left" id="1MX-oc-aDg">
+                                            <items>
+                                                <label width="70" alignment="left" text="Jazz :" id="RWC-Um-OzJ"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="yWu-5A-P6y"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="XyN-Fs-5eU">
+                                            <items>
+                                                <label width="70" alignment="left" text="Rock :" id="J6M-F8-9jO"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="6rK-IF-htT"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="ncz-pi-0wc">
+                                            <items>
+                                                <label width="70" alignment="left" text="Reggae :" id="9LU-wf-33f"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="6nV-V0-3AL"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="dOZ-NA-tOR">
+                                            <items>
+                                                <label width="70" alignment="left" text="Rnb :" id="M7h-1h-RwD"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="GNt-Of-fkh"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="eYf-ex-mQL">
+                                            <items>
+                                                <label width="70" height="32.5" alignment="left" text="Country :" id="mFe-Da-kDh"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="2ii-rO-mxG"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="19.5" alignment="left" id="dPr-M7-9WT">
+                                            <items>
+                                                <label width="70" height="32.5" alignment="left" text="Pop :" id="Gmy-ne-aPr"/>
+                                                <label width="52" alignment="left" text="0" textAlignment="center" id="Qs4-9P-afN"/>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="8" right="0.0" top="4" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="Lcountry" destination="ouK-na-tRu" id="a62-yg-gme"/>
+                        <outlet property="Ljazz" destination="hCv-v8-G1i" id="yBp-Kz-LfA"/>
+                        <outlet property="Lpop" destination="d2q-zK-tak" id="jST-7Q-tfG"/>
+                        <outlet property="Lreaggae" destination="vcT-i6-Kvj" id="P1k-Au-1Ac"/>
+                        <outlet property="Lrnb" destination="dXV-3A-IOS" id="p0B-zo-mT8"/>
+                        <outlet property="Lrock" destination="njA-kw-Qwa" id="lRb-6x-SAv"/>
+                        <outlet property="Mcountry" destination="2ii-rO-mxG" id="2wC-oC-ZcQ"/>
+                        <outlet property="Mjazz" destination="yWu-5A-P6y" id="8CR-JP-9dU"/>
+                        <outlet property="Mpop" destination="Qs4-9P-afN" id="Hk7-1F-qDv"/>
+                        <outlet property="Mraeggae" destination="6nV-V0-3AL" id="XIr-bA-EBK"/>
+                        <outlet property="Mrnb" destination="GNt-Of-fkh" id="Ygr-wN-FQS"/>
+                        <outlet property="Mrock" destination="6rK-IF-htT" id="6In-XS-6vf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="510" y="355"/>
+        </scene>
+        <!--Favoris-->
+        <scene sceneID="OlT-O5-YLg">
+            <objects>
+                <controller title="Favoris" backgroundImage="bgWW" id="lXD-2U-BR8" customClass="FavorisInterfaceController">
+                    <items>
+                        <table alignment="left" id="Slw-JI-cpt">
+                            <items>
+                                <tableRow identifier="QuoteTableRow" id="lme-e9-6r2" customClass="ICBQuoteTableRow">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="1" id="fR2-Ze-iKm">
+                                        <items>
+                                            <group width="122" alignment="left" layout="vertical" spacing="0.0" id="WrH-Dp-nea">
+                                                <items>
+                                                    <label width="1" alignment="left" text="Singer" id="faN-r6-dg8">
+                                                        <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                    </label>
+                                                    <label width="1" alignment="left" text="Title" id="xQG-Mc-DTZ">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="2" right="0.0" top="4" bottom="4"/>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="characterNameLabel" destination="faN-r6-dg8" id="Gwd-gV-Gh1"/>
+                                        <outlet property="quoteLabel" destination="xQG-Mc-DTZ" id="6Rs-XB-gzU"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Slw-JI-cpt" id="Yb4-Pa-i1d"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="202" y="760"/>
+        </scene>
+    </scenes>
+</document>
